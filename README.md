@@ -15,6 +15,7 @@ Project Team Members:
 For the project proposal, please write a short abstact addressing the questions below. You should replace the entire contents of this section with one to two paragraphs addressing the following:
 
 - What is the data set that you are going to analyze?
+  * https://images-na.ssl-images-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_UX182_CR0,0,182,268_AL_.jpg
 - What is your research question? 
 - What is your hypothesis about the results? 
 - What features of the data will you use to address your question? 
