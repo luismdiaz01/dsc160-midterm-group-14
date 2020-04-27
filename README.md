@@ -5,25 +5,17 @@ DSC160 Data Science and the Arts - Midterm Project Repository - Spring 2020
 Project Team Members: 
 - Luis Diaz, lmd003@ucsd.edu
 - Catherine Hou, cahou@ucsd.edu
-- Prithvi Pahwa, pspahwa@ucsd.edu
+- Prithviraj Pahwa, pspahwa@ucsd.edu
 - David Thierry, dthierry@ucsd.edu
 
 ## Abstract
 
 (10 points) 
 
-For the project proposal, please write a short abstact addressing the questions below. You should replace the entire contents of this section with one to two paragraphs addressing the following:
+### Can we judge a movie by its cover?
 
-- What is the data set that you are going to analyze?
-  * https://images-na.ssl-images-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_UX182_CR0,0,182,268_AL_.jpg
-- What is your research question? 
-- What is your hypothesis about the results? 
-- What features of the data will you use to address your question? 
-- What techniques and software tools will you use to extract these features?
-- What analytic techniques will you use?
-- What forms will your results take? (graphs, charts, images, sonification, Wordles, etc)
-- How are you expanding on topics we have covered in class? 
-- Why is it interesting? (personally, culturally, politically, other)
+The dataset that we are going to analyze comes from Kaggle (https://www.kaggle.com/neha1703/movie-genre-from-its-poster). These movie posters come from IMDB with features movie title, movie genre, and image link. We want to research whether we can classify these movies by their genre or year given their poster image. Our hypothesis is that we can classify which genre/year a movie comes from using features from the poster image. The features that we will use are hue, saturation, and brightness. Some more advanced features we can analyze are edges, entropy, and energy. skimage will be our main tool to process these images and extract their features. We will be using supervised learning to extract basic features to cluster these images by genre. We can plot these clusters onto a Bitmap plot. To analyze the accuracy of our classifier, we will plotting the accuracies by genre to see which genres the classifier works the best on. In the exercises we compared multiple features by plotting them onto different scatterplots, and we will expand on this by incorporating these features into a model. 
+The cover images of movies are among the first things that consumers will see, so it is paramount for studios to create an art that can capture an audience's attention and convey what the movie is about. Movies have a rich culture with depth (going deep into history), and breadth (revelant worldwide). Personally we have all seen our fair share of movies, and this gives us a chance to analyze the features that go into their creation and whether these differences among genres are significant enough to be able to classify them.
 
 ## Data
 
