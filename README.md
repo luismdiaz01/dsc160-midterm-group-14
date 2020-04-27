@@ -3,11 +3,10 @@
 DSC160 Data Science and the Arts - Midterm Project Repository - Spring 2020
 
 Project Team Members: 
-- Firstname Lastname1, name1@ucsd.edu
-- Firstname Lastname2, name2@ucsd.edu
-- Firstname Lastname3, name3@ucsd.edu
-- Firstname Lastname4, name4@ucsd.edu
-- Firstname Lastname5, name5@ucsd.edu
+- Luis Diaz, lmd003@ucsd.edu
+- Catherine Hou, name2@ucsd.edu
+- Prithvi Pahwa, name3@ucsd.edu
+- David Thierry, name4@ucsd.edu
 
 ## Abstract
 
