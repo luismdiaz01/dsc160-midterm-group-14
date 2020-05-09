@@ -150,4 +150,4 @@ def download_all(df, image_folder="movie_posters", name = 'all'):
         if len(dirs) == 0:
             count += len(files)
             print(f"Number of pictures in {root}:\t{len(files)}")
-    print(f"\nTotal number of pictures available for {k}: {count}\n")
+    print(f"\nTotal number of pictures available for {name}: {count}\n")
