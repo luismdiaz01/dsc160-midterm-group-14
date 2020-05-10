@@ -26,7 +26,7 @@ This section will describe your data and its origins. Each item should contain a
 - Who created the works? 
 - Is it digital native, or is it some kind of scan, recording, photo, etc., of an analog form? 
 
-The data we will be using for this Midterm assignment will be the  MovieGenre.csv dataset obtained from Kaggle.com and can be accessed here. The dataset is approximately 8.71 megabytes large in terms of memory. The data contains six columns: 
+The data we will be using for this Midterm assignment will be the  MovieGenre.csv dataset obtained from Kaggle.com and can be accessed here (https://www.kaggle.com/neha1703/movie-genre-from-its-poster). The dataset is approximately 8.71 megabytes large in terms of memory. The data contains six columns: 
 
 ![DataCols](results/DataCols.jpg)
 
