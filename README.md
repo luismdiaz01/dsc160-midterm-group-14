@@ -28,6 +28,8 @@ This section will describe your data and its origins. Each item should contain a
 
 The data we will be using for this Midterm assignment will be the  MovieGenre.csv dataset obtained from Kaggle.com and can be accessed here. The dataset is approximately 8.71 megabytes large in terms of memory. The data contains six columns: 
 
+![DataCols](results/DataCols.jpg)
+
 This MovieGenre.csv dataset was made using multiple sources.The creator of this dataset states that the IMDBid for movies was obtained through MovieLens, which is a non-commercial personalized movie recommendation. From this IMDBid data, the creator was able to webscrape IMDB.com for a collection of movie IMDBLinks, Titles, IMDB Scores, Genres and links to movie posters.
 
 The author of this dataset appears to be a former student at the University of Massachusetts, Amhurst. There is no information on when the dataset was initially created, however, the dataset was last updated two years ago. Thus, the data contained in this dataset must be at the very least two or more years old.  
