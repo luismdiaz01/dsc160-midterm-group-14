@@ -20,12 +20,20 @@ The cover images of movies are among the first things that consumers will see, s
 ## Data
 
 (10 points) 
-
 This section will describe your data and its origins. Each item should contain a name of the data source, a link to the source, and any necessary background information such as:
 - What is your cultural data source? 
 - When was it made? 
 - Who created the works? 
 - Is it digital native, or is it some kind of scan, recording, photo, etc., of an analog form? 
+
+The data we will be using for this Midterm assignment will be the  MovieGenre.csv dataset obtained from Kaggle.com and can be accessed here. The dataset is approximately 8.71 megabytes large in terms of memory. The data contains six columns: 
+
+This MovieGenre.csv dataset was made using multiple sources.The creator of this dataset states that the IMDBid for movies was obtained through MovieLens, which is a non-commercial personalized movie recommendation. From this IMDBid data, the creator was able to webscrape IMDB.com for a collection of movie IMDBLinks, Titles, IMDB Scores, Genres and links to movie posters.
+
+The author of this dataset appears to be a former student at the University of Massachusetts, Amhurst. There is no information on when the dataset was initially created, however, the dataset was last updated two years ago. Thus, the data contained in this dataset must be at the very least two or more years old.  
+
+We believe that the data, specifically the image files which we are dealing with, to be digitally native. The reason we believe that the data is digitally native is because posters are much of the initial appeal when it comes to advertising a movie, and advertising works effectively at a large scale. In order to ensure that the poster is universally viewed, digitizing the poster so that it can be viewed almost anywhere seems like the most likely step forward. Because of this, these movie posters are optimized for display on digital screens, meaning that the posters were most likely generated digitally. 
+
 
 ## Code
 
