@@ -54,14 +54,18 @@ This section will contain links to documentation of your results. This can inclu
 
 ### General Movie EDA
 ![Dist Movies](results/dist_of_movies_over_each_decade.jpg)
+<br>
 *This is a distribution of movie counts over each decade. The increase could either be attributed to more movies being rated on the website or in general more movies being released.*
 ![Movie Counts](results/counts_of_movies_per_genre.jpg)
+<br>
 *These are the counts of movies recorded by IMDB for each decade. Action movies have a greater presence in the 70s, 80s, and 10s, while romance movies were more present in the 90s and dominated the 00s.*
 ![Top 10](results/top_ten_genres.jpg)
+<br>
 *These are the top ten recorded movie genres in IMDB and their associated counts.*
 
 ### Colorfulness of Movie Posters
 ![Whole Colorfulness](results/colorfulness.jpg)
+<br>
 *The average colorfulness for action and romance movies across the decades. Action movies usually have higher colorfulness values than romance movies do. With these two genres, there is less colorfulness in the 10s compared to the 70s.*
 ![Action Colorfulness](results/action_colorfulness.jpg)
 ![Romance Colorfulness](results/romance_colorfulness.jpg)
@@ -71,8 +75,10 @@ This section will contain links to documentation of your results. This can inclu
 ![Whole Corners](results/corners.jpg)
 *The average number of corners for action and romance movies across the decades. Action movies have consistently a slightly higher number of corners than romance movies. The number of corners detected by each decade does not seem to be changing significantly.*
 ![Action Corners](results/action_corners.jpg)
+<br>
 *This is a sample of an action movie poster where on the left is the original poster and on the right are the corners plotted in blue according to the Harris Corner Detection method.*
 ![Romance Corners](results/romance_corners.jpg)
+<br>
 *This is a sample of an romance movie poster where on the left is the original poster and on the right are the corners plotted in blue according to the Harris Corner Detection method. At least comparing these two alone, we can detect more corners in the action movie sample than in the romance movie sample.*
 
 ## Discussion
