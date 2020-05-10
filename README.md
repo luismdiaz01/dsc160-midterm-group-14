@@ -121,8 +121,17 @@ Any implementation details or notes we need to repeat your work.
 ## Reference
 
 References to any papers, techniques, repositories you used:
-- Papers
-- Repositories
-- Blog posts
-- [Computing image "colorfulness"](https://www.pyimagesearch.com/2017/06/05/computing-image-colorfulness-with-opencv-and-python/) (a blog post from pyimageserach that computes the colorfulness metric described in  Hasler and Süsstrunk’s 2003 paper, [Measuring colorfulness in natural images.](https://infoscience.epfl.ch/record/33994/files/HaslerS03.pdf) 
+
+Papers
+- http://cs229.stanford.edu/proj2019spr/report/9.pdf
+
+
+Repositories
+-  Haralick, Local Binary Patterns, PFTA, Zernlike Moments: https://mahotas.readthedocs.io/en/latest/features.html#global-features
+- SURF (Speeded Up Robust Features): https://mahotas.readthedocs.io/en/latest/features.html#global-features
+
+
+Blog posts
+- [Computing image "colorfulness"](https://www.pyimagesearch.com/2017/06/05/computing-image-colorfulness-with-opencv-and-python/) from PyImageSearch that computes the colorfulness metric described in Hasler and Süsstrunk’s 2003 paper.
+- [Measuring colorfulness in natural images](https://infoscience.epfl.ch/record/33994/files/HaslerS03.pdf).
 - [Harris Corner Detection Documentation](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_features_harris/py_features_harris.html) from OpenCV that detects the corners in an image.
