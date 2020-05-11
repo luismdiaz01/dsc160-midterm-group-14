@@ -104,11 +104,24 @@ The subsequent paragraphs could address questions including:
 - How do your results relate to broader social, cultural, economic political, etc., issues? 
 - In what future directions could you expand this work?
 
+
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#TODO - Short Summary of Results\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We believe our project to be culturally relevant in the sense that being able to quantify the aspects of a movie poster that allow more accurate genre prediction allows for better understanding of initial impressions. Humans can grasp the cues like color, expressions on the faces of actors etc to quickly determine the genre (horror, comedy, animation etc). It has been shown that color characteristics of an image like hues, saturation, and brightness affect human emotions. If humans are able to predict the genre of a movie by a single glance at its poster, then we can assume that the color characteristics, local texture based features and structural cues of posters possess some characteristics which could be utilized in machine learning algorithms to predict its genre. Our approach differs from traditional approaches in a sense that traditional approaches to genre prediction typically depend on the subjective opinion of the individual viewing the visualization itself, whereas attempting to model genre based on features allows us to get more understanding of what characteristics are more influential than others in the general sense.\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assuming that we obtained relevant results, we believe that original producers would respond to this type of analysis in an immediately applicable way. For movie viewers, the movie posters are typically one of  the first impressions, and it is essential from the movie producers perspective that the movie poster elicit an emotional response. By showing that we are able to classify a movie’s genre by using that respective movie poster, we believe that the movie industry would begin to focus more on the objective quality of their posters rather than subjective quality. In other words, by being able to classify movies genre from movie poster, we have data on what features lead to a specific genre. From this, movie producers will tailor their movie poster to include many more of these traits in order to convey the correct message to the potential movie viewer. This way, producers can be assured that they are marketing their product in an optimal way to the target audience of their choice.\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our results bring to light other possible applications of the concepts utilized in this work. For example, instead of identifying underlying relationships between movie posters and movie genres to predict genre, there is potential for understanding relationships between political propaganda and the political affiliation of that propaganda. In the case of political propaganda, certain characteristics may coincide more with one affiliation than more than it does with others. From this gained understanding of what visual aspects pertaining propaganda matter, the visualization of these messages can be altered in order to convey an altered impression or message. Furthermore, because political propaganda can intend to have either negative or positive to a specific affiliated group, the ability to target certain audiences through implicit differences (such as the features we extracted) allows for much more promising results.\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our work definitely has room for improvement. In the future, we plan to incorporate more complex features (extracted from the movie posters themselves) into our model in hopes of obtaining better classification scores. Another potential extension to this work which could lead to better results would involve an unsupervised learning approach. The rationale behind using unsupervised learning is that we wish to find the inherent structure of our data without using explicitly-provided labels. By using this approach, we can compare our results between the former model and the latter to understand any relationships that we may have missed that could benefit our former model.  
+
+### Note 
+(First Paragraph and Last Paragraph may need improvement)
+
+
 ## Team Roles
 
 Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
 
-Catherine worked on the general movie EDA and the feature extraction/analysis for colorfulness and corner detection.
+- Catherine worked on the general movie EDA and the feature extraction/analysis for colorfulness and corner detection.
+
 
 ## Technical Notes and Dependencies
 
