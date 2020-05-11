@@ -20,12 +20,22 @@ The cover images of movies are among the first things that consumers will see, s
 ## Data
 
 (10 points) 
-
 This section will describe your data and its origins. Each item should contain a name of the data source, a link to the source, and any necessary background information such as:
 - What is your cultural data source? 
 - When was it made? 
 - Who created the works? 
 - Is it digital native, or is it some kind of scan, recording, photo, etc., of an analog form? 
+
+The data we will be using for this Midterm assignment will be the  MovieGenre.csv dataset obtained from Kaggle.com and can be accessed here (https://www.kaggle.com/neha1703/movie-genre-from-its-poster). The dataset is approximately 8.71 megabytes large in terms of memory. The data contains six columns: 
+
+![DataCols](results/DataCols.jpg)
+
+This MovieGenre.csv dataset was made using multiple sources.The creator of this dataset states that the IMDBid for movies was obtained through MovieLens, which is a non-commercial personalized movie recommendation. From this IMDBid data, the creator was able to webscrape IMDB.com for a collection of movie IMDBLinks, Titles, IMDB Scores, Genres and links to movie posters.
+
+The author of this dataset appears to be a former student at the University of Massachusetts, Amhurst. There is no information on when the dataset was initially created, however, the dataset was last updated two years ago. Thus, the data contained in this dataset must be at the very least two or more years old.  
+
+We believe that the data, specifically the image files which we are dealing with, to be digitally native. The reason we believe that the data is digitally native is because posters are much of the initial appeal when it comes to advertising a movie, and advertising works effectively at a large scale. In order to ensure that the poster is universally viewed, digitizing the poster so that it can be viewed almost anywhere seems like the most likely step forward. Because of this, these movie posters are optimized for display on digital screens, meaning that the posters were most likely generated digitally. 
+
 
 ## Code
 
@@ -69,10 +79,12 @@ This section will contain links to documentation of your results. This can inclu
 *The average colorfulness for action and romance movies across the decades. Action movies usually have higher colorfulness values than romance movies do. With these two genres, there is less colorfulness in the 10s compared to the 70s.*
 ![Action Colorfulness](results/action_colorfulness.jpg)
 ![Romance Colorfulness](results/romance_colorfulness.jpg)
+<br>
 *These montages are of the movie image posters that had the top 9 (to the left) and the bottom 9 (to the right) colorfulness values for the action genre (on top) and for the romance genre (on bottom). The green numbers are the colorfulness values associated with each poster. We can see that the colorfulness for action tend to be higher than that for romance based on the top and bottom 9.*
 
 ### Corners of Movie Posters
 ![Whole Corners](results/corners.jpg)
+<br>
 *The average number of corners for action and romance movies across the decades. Action movies have consistently a slightly higher number of corners than romance movies. The number of corners detected by each decade does not seem to be changing significantly.*
 ![Action Corners](results/action_corners.jpg)
 <br>
@@ -94,11 +106,24 @@ The subsequent paragraphs could address questions including:
 - How do your results relate to broader social, cultural, economic political, etc., issues? 
 - In what future directions could you expand this work?
 
+
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#TODO - Short Summary of Results\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We believe our project to be culturally relevant in the sense that being able to quantify the aspects of a movie poster that allow more accurate genre prediction allows for better understanding of initial impressions. Humans can grasp the cues like color, expressions on the faces of actors etc to quickly determine the genre (horror, comedy, animation etc). It has been shown that color characteristics of an image like hues, saturation, and brightness affect human emotions. If humans are able to predict the genre of a movie by a single glance at its poster, then we can assume that the color characteristics, local texture based features and structural cues of posters possess some characteristics which could be utilized in machine learning algorithms to predict its genre. Our approach differs from traditional approaches in a sense that traditional approaches to genre prediction typically depend on the subjective opinion of the individual viewing the visualization itself, whereas attempting to model genre based on features allows us to get more understanding of what characteristics are more influential than others in the general sense. We also explored features outside what we have explored in class: corner detection and colorfulness, and although we didn't find significant differences across decades, there is a gap in these metrics when comparing genres, which in this case was action and romance movies.\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assuming that we obtained relevant results, we believe that original producers would respond to this type of analysis in an immediately applicable way. For movie viewers, the movie posters are typically one of  the first impressions, and it is essential from the movie producers perspective that the movie poster elicit an emotional response. By showing that we are able to classify a movie’s genre by using that respective movie poster, we believe that the movie industry would begin to focus more on the objective quality of their posters rather than subjective quality. In other words, by being able to classify movies genre from movie poster, we have data on what features lead to a specific genre. From this, movie producers will tailor their movie poster to include many more of these traits in order to convey the correct message to the potential movie viewer. This way, producers can be assured that they are marketing their product in an optimal way to the target audience of their choice. An example would be examining the colorfulness of an image because they could test whether more colorful images draw attention from more people. Colorfulness is usually a subjective metric, but a paper referenced in this blog post [Computing image "colorfulness"](https://www.pyimagesearch.com/2017/06/05/computing-image-colorfulness-with-opencv-and-python/) manages to derive a metric that correlates to what people's idea of colorfulness is. We could also look at corner detection and apply that same concept to find that ideal balance between too many, too little, and just enough corners. What is unique about corners is that it is where two edges meet and is much easier to identify a corner than other features in an image.\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our results bring to light other possible applications of the concepts utilized in this work. For example, instead of identifying underlying relationships between movie posters and movie genres to predict genre, there is potential for understanding relationships between political propaganda and the political affiliation of that propaganda. In the case of political propaganda, certain characteristics may coincide more with one affiliation than more than it does with others. From this gained understanding of what visual aspects pertaining propaganda matter, the visualization of these messages can be altered in order to convey an altered impression or message. Furthermore, because political propaganda can intend to have either negative or positive to a specific affiliated group, the ability to target certain audiences through implicit differences (such as the features we extracted) allows for much more promising results.\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our work definitely has room for improvement. In the future, we plan to incorporate more complex features (extracted from the movie posters themselves) into our model in hopes of obtaining better classification scores. Another potential extension to this work which could lead to better results would involve an unsupervised learning approach. The rationale behind using unsupervised learning is that we wish to find the inherent structure of our data without using explicitly-provided labels. By using this approach, we can compare our results between the former model and the latter to understand any relationships that we may have missed that could benefit our former model. We could extend our work for colorfulness by diving deeper into more genres and finding patterns to see if we could use this to support our classification. For corner detection, we could try to grab the features of these specific corners and see if we can detect titles or objects based on a corner. 
+
+### Note 
+(First Paragraph and Last Paragraph may need improvement)
+
+
 ## Team Roles
 
 Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
 
-Catherine worked on the general movie EDA and the feature extraction/analysis for colorfulness and corner detection.
+- Catherine worked on the general movie EDA and the feature extraction/analysis for colorfulness and corner detection. Work can be seen in the [ETL Notebook](etl.ipynb).
+- David helped with feature selection and data cleaning. Also worked on the discussion prompts and helped format repository for submission. 
 
 ## Technical Notes and Dependencies
 
@@ -111,8 +136,17 @@ Any implementation details or notes we need to repeat your work.
 ## Reference
 
 References to any papers, techniques, repositories you used:
-- Papers
-- Repositories
-- Blog posts
-- [Computing image "colorfulness"](https://www.pyimagesearch.com/2017/06/05/computing-image-colorfulness-with-opencv-and-python/) (a blog post from pyimageserach that computes the colorfulness metric described in  Hasler and Süsstrunk’s 2003 paper, [Measuring colorfulness in natural images.](https://infoscience.epfl.ch/record/33994/files/HaslerS03.pdf) 
+
+Papers
+- http://cs229.stanford.edu/proj2019spr/report/9.pdf
+
+
+Repositories
+-  Haralick, Local Binary Patterns, PFTA, Zernlike Moments: https://mahotas.readthedocs.io/en/latest/features.html#global-features
+- SURF (Speeded Up Robust Features): https://mahotas.readthedocs.io/en/latest/features.html#global-features
+
+
+Blog posts
+- [Computing image "colorfulness"](https://www.pyimagesearch.com/2017/06/05/computing-image-colorfulness-with-opencv-and-python/) from PyImageSearch that computes the colorfulness metric described in Hasler and Süsstrunk’s 2003 paper.
+- [Measuring colorfulness in natural images](https://infoscience.epfl.ch/record/33994/files/HaslerS03.pdf).
 - [Harris Corner Detection Documentation](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_features_harris/py_features_harris.html) from OpenCV that detects the corners in an image.
