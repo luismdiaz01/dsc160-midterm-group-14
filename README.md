@@ -121,7 +121,7 @@ The subsequent paragraphs could address questions including:
 Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
 
 - Catherine worked on the general movie EDA and the feature extraction/analysis for colorfulness and corner detection.
-
+- David helped with feature selection and data cleaning. Also worked on the discussion prompts and helped format repository for submission. 
 
 ## Technical Notes and Dependencies
 
