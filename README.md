@@ -157,6 +157,7 @@ Provide an account of individual members and their efforts/contributions to the 
 
 - Catherine worked on the general movie EDA and the feature extraction/analysis for colorfulness and corner detection. Work can be seen in the [ETL Notebook](etl.ipynb).
 - David helped with feature selection and data cleaning. Also worked on the discussion prompts and helped format repository for submission. 
+- Prithviraj helped with finding relevant features, extracting features from all the images and then built the model to classify genre using those features. Also worked on the analysis of those features (plots are pasted above). Relevant notebooks are [DownloadingAllImages Notebook](DSC160DownloadingAllImages.ipynb), [FeatureExtraction Notebook](DSC160FeatureExtraction.ipynb) and [ModelEvaluation Notebook](ModelEvaluation.ipynb).
 
 ## Technical Notes and Dependencies
 
