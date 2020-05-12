@@ -131,8 +131,8 @@ We also attempted a multi-label multi-class classification to see whether our mo
 ### Decades Classification
 
 
-![Decade Feature Importance -Action](actions_decade_confusion_matrix.png)
-![Decade Feature Importance -Romance](romance_decade_confusion_matrix.png)
+![Decade Feature Importance -Action](results/actions_decade_confusion_matrix.png)
+![Decade Feature Importance -Romance](results/romance_decade_confusion_matrix.png)
 ![Decade Feature Importance By Genre](results/comparing_decades_features.png)
 
 ## Discussion
