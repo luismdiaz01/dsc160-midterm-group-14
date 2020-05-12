@@ -13,8 +13,8 @@ Project Team Members:
 (10 points) 
 
 
-The dataset that we are going to analyze comes from Kaggle (https://www.kaggle.com/neha1703/movie-genre-from-its-poster). These movie posters come from IMDB with features movie title, movie genre, and image link. We want to research whether we can classify these movies by their genre or year given their poster image. Our hypothesis is that we can classify which genre/year a movie comes from using features from the poster image. The features that we will use are hue, saturation, and brightness. Some more advanced features we can analyze are edges, entropy, and energy. skimage will be our main tool to process these images and extract their features. We will be using supervised learning to extract basic features to cluster these images by genre. We can plot these clusters onto a Bitmap plot. To analyze the accuracy of our classifier, we will plotting the accuracies by genre to see which genres the classifier works the best on. In the exercises we compared multiple features by plotting them onto different scatterplots, and we will expand on this by incorporating these features into a model. 
-The cover images of movies are among the first things that consumers will see, so it is paramount for studios to create an art that can capture an audience's attention and convey what the movie is about. Movies have a rich culture with depth (going deep into history), and breadth (revelant worldwide). Personally we have all seen our fair share of movies, and this gives us a chance to analyze the features that go into their creation and whether these differences among genres are significant enough to be able to classify them.
+The dataset that we are going to analyze comes from Kaggle (https://www.kaggle.com/neha1703/movie-genre-from-its-poster). These movie posters come from IMDB with features movie title, movie genre, and image link. We want to research whether we can classify these movies by their genre or year given their poster image. Our hypothesis is that we can classify which genre/decade a movie comes from using features from the poster image. The features that we will use are hue, saturation, and brightness. Some more advanced features we can analyze are edges, entropy, and energy. skimage will be our main tool to process these images and extract their features. We will be using supervised learning to extract basic features from the images. We will plot these diferences onto plots. To analyze the accuracy of our classifiers, we will comapare the accuracies to see which genres and decades the classifier works the best on. In the exercises we compared multiple features by plotting them onto different scatterplots, and we will expand on this by incorporating these features into a model. 
+The cover images of movies are among the first things that consumers will see, so it is paramount for studios to create an art that can capture an audience's attention and convey what the movie is about. Movies have a rich culture with depth (going deep into history), and breadth (revelant worldwide). Personally we have all seen our fair share of movies, and this gives us a chance to analyze the features that go into their creation and whether these differences among genres/decades are significant enough to be able to classify them.
 
 ## Data
 
@@ -49,7 +49,7 @@ This section will link to the various code for your project (stored within this 
 
 Link each of your notebooks or .py files within this section, and provide a brief explanation of what the code does. Reading this section we should have a sense of how to run your code.
 
-[ETL Notebook](etl.ipynb) contains the code for extracting the links to the images, transforming the information into a dataframe/csv, and loading the images into a folder. It also includes the EDA, colorfulness, and corners feature extraction and analysis of the results.
+[ETL Notebook](etl.ipynb) contains the code for extracting the links to the images, transforming the information into a dataframe/csv, and loading the images into a folder. It also includes the EDA, colorfulness, and corners feature extraction and analysis of the results. This notebook also includes the decade analysis and has the extracting of features and building classifiers to predict the decade.
 
 [DownloadingAllImages Notebook](DSC160DownloadingAllImages.ipynb) contains the code for downloading posters of all the movies in our MovieData dataset to a local machine.
 
@@ -66,6 +66,8 @@ This section will contain links to documentation of your results. This can inclu
 - image files (`.jpg`, `.png` or whatever else is appropriate)
 - audio files (`.wav`, `.mp3`)
 - written text as `.pdf`
+
+Our results are recorded in a results directory that contain image files and figures from our analysis performed in the notebooks. We will aslo write out the results as a pdf in this readme with rhe images from our analysis. 
 
 ### General Movie EDA
 ![Dist Movies](results/dist_of_movies_over_each_decade.jpg)
@@ -126,6 +128,13 @@ We also attempted a multi-label multi-class classification to see whether our mo
 
 ![Feature Importance By Genre](results/MultiTaskFeatureImportances.jpg)
 
+### Decades Classification
+
+
+![Decade Feature Importance -Action](actions_decade_confusion_matrix.png)
+![Decade Feature Importance -Romance](romance_decade_confusion_matrix.png)
+![Decade Feature Importance By Genre](results/comparing_decades_features.png)
+
 ## Discussion
 
 (30 points, three to five paragraphs)
@@ -157,7 +166,6 @@ Provide an account of individual members and their efforts/contributions to the 
 
 - Catherine worked on the general movie EDA and the feature extraction/analysis for colorfulness and corner detection. Work can be seen in the [ETL Notebook](etl.ipynb).
 - David helped with feature selection and data cleaning. Also worked on the discussion prompts and helped format repository for submission. 
-- Prithviraj helped with finding relevant features, extracting features from all the images and then built the model to classify genre using those features. Also worked on the analysis of those features (plots are pasted above). Relevant notebooks are [DownloadingAllImages Notebook](DSC160DownloadingAllImages.ipynb), [FeatureExtraction Notebook](DSC160FeatureExtraction.ipynb) and [ModelEvaluation Notebook](ModelEvaluation.ipynb).
 
 ## Technical Notes and Dependencies
 
