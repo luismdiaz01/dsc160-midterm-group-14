@@ -166,6 +166,8 @@ Provide an account of individual members and their efforts/contributions to the 
 
 - Catherine worked on the general movie EDA and the feature extraction/analysis for colorfulness and corner detection. Work can be seen in the [ETL Notebook](etl.ipynb).
 - David helped with feature selection and data cleaning. Also worked on the discussion prompts and helped format repository for submission. 
+- Luis worked on the data gathering and scraping made in the etl.py file and in the etl notebook. Also helped with feature extraction and classification for movie decades inside the etl notebook
+- Prithviraj worked on the genre classifications and made the FeatureExtraction, FeatureSearch, and DownloadingAllImages notebooks. Also worked on writing his his analysis on the github
 
 ## Technical Notes and Dependencies
 
@@ -173,7 +175,8 @@ Any implementation details or notes we need to repeat your work.
 - Additional libraries you are using for this project
 - Does this code require other pip packages, software, etc?
 - Does this code need to run on some other (non-datahub) platform? (CoLab, etc.)
-- In addition to pandas, numpy, matplotlib, and seaborn, the [ETL Notebook](etl.ipynb) requires OpenCV, glob, skimage, and imutils.
+ 
+In addition to pandas, numpy, matplotlib, and seaborn, the [ETL Notebook](etl.ipynb) requires OpenCV, glob, skimage, and imutils.
 
 ## Reference
 
