@@ -130,9 +130,11 @@ We also attempted a multi-label multi-class classification to see whether our mo
 
 ### Decades Classification
 
+As the style of movies changed over the decade we thought to see if we could extract features from the posters to classify what decade the poster originated from. After extracting features, a svm classifier was built and a random forest classifier. We chose to classify the decades from the action movies and romance movies. The svm classifier resulted in an accuracy between .18-.22 on action movies and .2-.24 on romance movies. A random forest classifier resulted in an accuracy between .27-.3 for action movies and .27-.3 for romance movies. So we continued with the random forest and looked at the features most important to that classifier. Looking at the confusion matrix for action movies we see that the classifier had an easier time classifying movies in the 1970s over any other decade, maybe because they had more distinct features. For romance movies it was tied between the 1970s and 2010s. Comparing the feature importance 0 stands for action movies and 1 is romance movies. We can see that several features did not mean much to the classifer such as width or height but brightness was more important to action movies.
 
-![Decade Feature Importance -Action](results/actions_decade_confusion_matrix.png)
-![Decade Feature Importance -Romance](results/romance_decade_confusion_matrix.png)
+
+![Decade Confusion Matrix -Action](results/actions_decade_confusion_matrix.png)
+![Decade Confusion Matrix -Romance](results/romance_decade_confusion_matrix.png)
 ![Decade Feature Importance By Genre](results/comparing_decades_features.png)
 
 ## Discussion
