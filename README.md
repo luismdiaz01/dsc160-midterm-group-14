@@ -183,3 +183,4 @@ Blog posts
 - [Computing image "colorfulness"](https://www.pyimagesearch.com/2017/06/05/computing-image-colorfulness-with-opencv-and-python/) from PyImageSearch that computes the colorfulness metric described in Hasler and Süsstrunk’s 2003 paper.
 - [Measuring colorfulness in natural images](https://infoscience.epfl.ch/record/33994/files/HaslerS03.pdf).
 - [Harris Corner Detection Documentation](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_features_harris/py_features_harris.html) from OpenCV that detects the corners in an image.
+- [A guide for reading in movie posters](https://towardsdatascience.com/movie-posters-81af5707e69a) from this [kaggle dataset](https://www.kaggle.com/neha1703/movie-genre-from-its-poster)
